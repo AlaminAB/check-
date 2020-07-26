@@ -6420,17 +6420,21 @@ table img{
 input.form-control.custom-input {
     box-shadow: 0 2px 9px 0px rgba(34,12,43, 0.1);
     border: 0;
-    padding: 18px 16px;
+    padding: 17px 16px;
     display: block;
     height: auto;
 }
 
 .form-group.custom-design-a a {
-    box-shadow: 0 2px 9px 0px rgba(34,12,43, 0.1);
+ box-shadow: 0 2px 9px 0px rgba(34,12,43, 0.1);
     display: block;
     text-align: center;
     padding: 17px 16px;
     border-radius: 8px;
     font-weight: 600;
     /* color: #000; */
+    border: none;
+    outline: none;
+    font-size: 14px;
+    line-height: 24px;
 }

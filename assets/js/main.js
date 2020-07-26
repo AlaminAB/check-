@@ -345,6 +345,12 @@
 
 $(".custom-click-btn").on("click",function(){
   $(this).toggleClass("btn-custom")
+  $(".custom-click-btn2").removeClass("btn-custom")
+})
+
+$(".custom-click-btn2").on("click",function(){
+  $(this).toggleClass("btn-custom")
+    $(".custom-click-btn").removeClass("btn-custom")
 })
 
 })(jQuery);
