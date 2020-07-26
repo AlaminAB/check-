@@ -6438,3 +6438,9 @@ input.form-control.custom-input {
     font-size: 14px;
     line-height: 24px;
 }
+a.custom-click-btn.btn-custom:before{
+  background-color: #519fff;
+}
+a.custom-click-btn2.btn-custom:before{
+  background-color: #519fff;
+}
